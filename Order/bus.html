@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaXplore</title>
+  <link rel="stylesheet" href="bus.css">
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../index.html">JavaXplore</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="bus.html">Bus</a></li>
+      <li><a href="car.html">Cars</a></li>
+      <li><a href="ride.html">Rides</a></li>
+      <li><a href="train.html">Trains</a></li>
+      <li><a href="flight.html">Flights</a></li>
+      <li><a href="hotel.html">Hotels</a></li>
+    </ul>
+    <div class="auth-buttons">
+      <a href="#" class="btn btn-signin">Sign In</a>
+      <a href="#" class="btn btn-signup">Sign Up</a>
+    </div>
+  </nav>
+
+  <!-- Home / Hero Section -->
+  <section class="hero" id="bus">
+    <div class="overlay-bus">
+      <h1>Order your bus tickets</h1>
+
+      <!-- Tabs -->
+      <div class="bus-tabs">
+        <button class="active">Bus</button>
+        <button>Sleeper bus</button>
+      </div>
+
+      <!-- Form -->
+      <form class="bus-form">
+        <div class="form-group">
+          <label>From</label>
+          <input type="text" placeholder="Enter city" required>
+        </div>
+        <div class="form-group">
+          <label>To</label>
+          <input type="text" placeholder="Enter destination" required>
+        </div>
+        <div class="form-group">
+          <label>Departure date</label>
+          <input type="date" required>
+        </div>
+        <div class="form-group">
+          <label>No. of seats</label>
+          <input type="number" placeholder="Enter seats" min="1" required>
+        </div>
+        <button class="search-btn">🔍</button>
+      </form>
+
+      <div class="partners"> 
+        <div class="partner-logos">
+          <p><em>support by :</em></p>
+          <img class="kai" src="../Image/kai.png" alt="KAI">
+          <img class="gojek" src="../Image/gojek.jpg" alt="Gojek">
+          <img class="lion" src="../Image/lion.jpeg" alt="Lion Group">
+          <img class="bluebird" src="../Image/bluebird.jpeg" alt="Bluebird">
+        </div>
+      </div>
+    </div>
+  </section>
