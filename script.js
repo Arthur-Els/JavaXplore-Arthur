@@ -14,3 +14,5 @@
   document.querySelectorAll(".card").forEach(card => {
     cardObserver.observe(card);
   });
+
+  
