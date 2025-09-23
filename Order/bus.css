@@ -65,6 +65,8 @@ body, html {
 .btn-signin {
   border: 1.5px solid white;
   color: white;
+  height: 10px;
+  width: 10px;
 }
 
 .btn-signin:hover {
@@ -72,14 +74,11 @@ background-color:#62c2c2
 }
 
 .btn-signup {
-  border: 1.5px solid white;
-  background: white;
-  color: #17a2b8;
+  color: #ffffff;
 }
 
 .btn-signup:hover {
-background-color: #c7e2eb;
-border-color: #b8dae6;
+text-decoration: underline;
 }
 
 /* Section style */
