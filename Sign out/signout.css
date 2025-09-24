@@ -91,6 +91,7 @@
   margin-top:5px;
   transition: 0.3s;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 .btn-continue:hover {
