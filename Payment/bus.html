@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaXplore</title>
+  <link rel="stylesheet" href="bus.css">
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../index.html">JavaXplore</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../Order/bus.html">Bus</a></li>
+      <li><a href="../Order/car-ride.html">Cars & Rides</a></li>
+      <li><a href="../Order/train.html">Trains</a></li>
+      <li><a href="../Order/flight.html">Flights</a></li>
+      <li><a href="../Order/hotel.html">Hotels</a></li>
+    </ul>
+    <div class="auth-buttons">
+      <a href="#" class="btn btn-signin"></a>
+      <a href="../Sign out/signout.html" class="btn btn-signup">Person Satu</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="review">
+    <div class="overlay-home">
+      <h1>Confirm payment</h1>
+  <br>
+  <hr>
+
+<!-- Konten -->
+  <div class="container">
+    <!-- Form -->
+    <div class="form-section">
+      <br>
+      <div class="input-group">
+        <label for="fullname">Full Name <small>(as in Passport/Official ID Card)</small></label>
+        <input type="text" id="fullname" placeholder="Enter your full name">
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="input-group">
+          <label for="mobile">Mobile number</label>
+          <div style="display: flex;">
+            <input type="number" placeholder="8123456789">
+          </div>
+        </div>
+      </div>
+      <button class="btn-pay">Choose payment method</button>
+    </div>
+
+    <!-- Detail Kartu -->
+    <div class="detail-card">
+      <img src="../Image/bus-daytrans.jpg" alt="Hotel">
+      <div class="detail-content">
+        <div class="checkin-checkout">
+          <div>From:<br>DayTrans Bogor</div>
+          <div>4h drive</div>
+          <div>To:<br>DayTrans Pasteur</div>
+        </div>
+        <div class="room-info">1x seat</div>
+        <div class="room-info">
+          No refund<br>
+          Once you order, you cant ask for a refund<br><br>
+
+          No reschedule<br>
+          Onece you order, you can't reschedule<br><br>
+        </div>
+        <div>
+          Total payment:  Rp 65.000
+        </div>
+          
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

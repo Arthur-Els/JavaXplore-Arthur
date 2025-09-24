@@ -71,6 +71,15 @@
   margin-bottom: 20px;
 }
 
+.login-box button{
+  color: white;
+  height: 40px;
+  width: 140px;
+}
+.social-login button{
+  color: #333;
+}
+
 /* Label & Input */
 form {
   display: flex;
