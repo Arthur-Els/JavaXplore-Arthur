@@ -167,18 +167,19 @@ text-decoration: underline;
   width: 100%;
 }
 .search-btn {
-  width: 100px;
-  padding: 6px;
+  width: 96px;
+  padding: 7px;
   border-radius: 6px;
   border: none;
   background: #ffffff;
-  color: white;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
   cursor: pointer;
   transition: 0.3s;
 }
 .search-btn:hover {
-  background: #138496;
+  background: #2d93a3;
+  color: whitesmoke;
 }
 
 /* Partner logos */
