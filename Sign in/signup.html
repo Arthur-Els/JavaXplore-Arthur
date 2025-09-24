@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="signin.css">
 </head>
+<style>
+  .hero{
+    height: 125vh;
+  }
+</style>
 <body>
    <!-- Navbar -->
   <nav class="navbar">
@@ -29,18 +34,27 @@
   <!-- Home / Hero Section -->
   <section class="hero" id="home">
     <div class="overlay-home">
-      <h1>Sign in to javaXplore</h1>
+      <h1>Sign up to javaXplore</h1>
 
     <div class="login-container">
     <div class="login-box">
-      <h2>Welcome</h2>
+      <h2>Create account</h2>
 
       <form action="../index-loggedin.html" method="get">
         <label for="username">Username</label>
         <input type="text" id="username" placeholder="Your username" required>
 
+        <label for="username">Email</label>
+        <input type="email" id="email" placeholder="Your email" required>
+
+        <label for="username">Mobile number</label>
+        <input type="number" id="mobile" placeholder="Your mobile number" required>
+
         <label for="password">Password</label>
         <input type="password" id="password" placeholder="Your password" required>
+
+        <label for="password">Confirm password</label>
+        <input type="password" id="password" placeholder="Reenter your password" required>
 
         <button type="submit" class="btn-continue">Continue</button>
       </form>

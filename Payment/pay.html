@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaXplore</title>
+  <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+   <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../index-loggedin.html">JavaXplore</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../Order/bus.html">Bus</a></li>
+      <li><a href="../Order/car-ride.html">Cars & Rides</a></li>
+      <li><a href="../Order/train.html">Trains</a></li>
+      <li><a href="../Order/flight.html">Flights</a></li>
+      <li><a href="../Order/hotel.html">Hotels</a></li>
+    </ul>
+    <div class="auth-buttons">
+      <a href="#" class="btn btn-signin"></a>
+      <a href="../Sign out/signout.html" class="btn btn-signup">Person Satu</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="review">
+    <div class="overlay-home">
+      <h1>Choose payment method</h1>
+  <br>
+  <hr>
+
+    <!-- Bank Transfer -->
+    <div class="payment-group">
+      <h2>Bank Transfer</h2>
+
+      <div class="payment-options">
+        <label class="payment-option">
+          <input type="radio" name="payment" value="bca">
+          <img src="../Image/pay-bca.png" alt="BCA">
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment" value="bri">
+          <img src="../Image/pay-bri.png" alt="BRI">
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment" value="mandiri">
+          <img src="../Image/pay-mandiri.png" alt="Mandiri">
+        </label>
+      </div>
+    </div>
+   
+    <!-- E-Money -->
+    <div class="payment-group">
+      <h2>E-Money</h2>
+      
+      <div class="payment-options">
+        <label class="payment-option">
+          <input type="radio" name="payment" value="dana">
+          <img src="../Image/pay-dana.png" alt="Dana">
+        </label>
+
+        <label class="payment-option">
+          <input type="radio" name="payment" value="gopay">
+          <img src="../Image/pay-gopay.png" alt="GoPay">
+        </label>
+      </div>
+    </div>
+</body>
+</html>
