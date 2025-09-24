@@ -67,8 +67,16 @@
 
 /* Judul */
 .login-box h2 {
-  color: #2f7f72;
+  color: #575757;
+  text-align: center;
+  font-size: 25px;
+}
+
+.login-box h3 {
+  color: #828282;
   margin-bottom: 20px;
+  text-align: center;
+  font-size: 13px;
 }
 
 /* Label & Input */
@@ -95,7 +103,7 @@ form input {
 
 /* Tombol Continue */
 .btn-continue {
-  background: #20c997;
+  background: #d0695b;
   color: white;
   border: none;
   padding: 1px, 1px;
@@ -108,60 +116,9 @@ form input {
 }
 
 .btn-continue:hover {
-  background: #17a2b8;
+  background: #d5503e;
 }
 
-/* Divider */
-.divider {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #777;
-  margin: 15px 0;
-}
-
-.divider::before, .divider::after {
-  content: "";
-  flex: 1;
-  border-bottom: 1px solid #ccc;
-}
-
-.divider:not(:empty)::before {
-  margin-right: 0.75em;
-}
-
-.divider:not(:empty)::after {
-  margin-left: 0.75em;
-}
-
-/* Social login */
-.social-login {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.social-login button {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-  border: none;
-  padding: 10px;
-  border-radius: 25px;
-  font-size: 15px;
-  cursor: pointer;
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: 0.3s;
-  margin: auto;
-}
-
-.social-login button:hover {
-  background: #f0f0f0;
-}
-
-.social-login img {
-  width: 20px;
-  height: 20px;
+.login-box button{
+  color: white;
 }

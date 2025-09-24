@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaXplore</title>
-  <link rel="stylesheet" href="bus.css">
+  <link rel="stylesheet" href="flight.css">
 </head>
 <body>
    <!-- Navbar -->
@@ -28,13 +28,13 @@
   <!-- Home / Hero Section -->
   <section class="hero" id="bus">
     <div class="overlay-bus">
-      <h1>Order your bus tickets</h1>
+      <h1>Order your plane tickets</h1>
 
       <!-- Form -->
       <form class="bus-form" action="../Choose/bus.html" method="get">
         <div class="form-group">
           <label>From</label>
-          <input type="text" placeholder="Enter city" required>
+          <input type="text" placeholder="Enter city or train station" required>
         </div>
         <div class="form-group">
           <label>To</label>
@@ -48,7 +48,11 @@
           <label>No. of seats</label>
           <input type="number" placeholder="Enter seats" min="1" required>
         </div>
-        <button class="search-btn">🔍</button>
+        <div class="form-group">
+          <label>Class</label>
+          <input type="text" placeholder="Economic, first class, VIP" required>
+        </div>
+        <button class="search-btn">Search 🔍</button>
       </form>
 
       <div class="partners"> 
