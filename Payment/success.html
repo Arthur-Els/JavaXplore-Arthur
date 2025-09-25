@@ -4,34 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaXplore</title>
-  <link rel="stylesheet" href="pay.css">
-</head>
-<body>
-   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">
-      <a href="../index-loggedin.html">JavaXplore</a>
-    </div>
-    <ul class="nav-links">
-      <li><a href="../Order/bus.html">Bus</a></li>
-      <li><a href="../Order/car-ride.html">Cars & Rides</a></li>
-      <li><a href="../Order/train.html">Trains</a></li>
-      <li><a href="../Order/flight.html">Flights</a></li>
-      <li><a href="../Order/hotel.html">Hotels</a></li>
-    </ul>
-    <div class="auth-buttons">
-      <a href="#" class="btn btn-signin"></a>
-      <a href="../Sign out/signout.html" class="btn btn-signup">Person Satu</a>
-    </div>
-  </nav>
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaXplore</title>
-  <link rel="stylesheet" href="pay.css">
+  <link rel="stylesheet" href="success.css">
 </head>
 <body>
    <!-- Navbar -->
@@ -46,25 +19,27 @@
     </div>
   </nav>
 
-<div class="success-container">
-    <div class="success-icon">✅</div>
-    <h2>Payment success!</h2>
-    <p>Your order has been confirmed.</p>
+  <div class="container">
+    <h2>E-Tickets</h2>
 
-    <!-- E-Ticket -->
-    <div class="ticket">
-      <h3>E-Ticket</h3>
+    <div class="order-summary">
       <p><strong>Order number:</strong> #JX123456</p>
       <p><strong>Passenger name:</strong> Arthur</p>
       <p><strong>Route:</strong> Surabaya → Yogyakarta</p>
       <p><strong>Date:</strong> 25 December 2025</p>
-      <p><strong>Time:</strong> 08:00 WIB</p>
+      <p><strong>Time:</strong> 18:00 WIB</p>
       <p><strong>Seats:</strong> 12A, 13A, 14A, 15A, 16A, 17A, 18A, 19A</p>
     </div>
 
-    <a href="#" class="btn">Download E-Ticket (PDF)</a>
+    <div class="payment-instructions">
+      <div class="instructions">
+        <a href="#" class="btn">Download E-Ticket (PDF)</a>
+        <br><br>
+        <p>E-ticket is also sent via email at personsatu@gmail.com</p>
+      </div>
+    </div>
+
+    <a href="../index-loggedin.html" class="btn-finish">Done</a>
   </div>
-</body>
-</html>
 </body>
 </html>
