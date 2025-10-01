@@ -20,7 +20,7 @@
       <li><a href="hotel.html">Hotels</a></li>
     </ul>
     <div class="auth-buttons">
-      <a href="#" class="btn btn-signin"></a>
+      <a href="../Sign out/signout.html" class="user-icon"><img src="/Image/user.svg" alt=""></a>
       <a href="../Sign out/signout.html" class="btn btn-signup">Person Satu</a>
     </div>
   </nav>
@@ -32,22 +32,39 @@
 
       <!-- Form -->
       <form class="bus-form" action="../Choose/bus.html" method="get">
+        
         <div class="form-group">
-          <label>From</label>
-          <input type="text" placeholder="Enter city" required>
+          <label for="from">From</label>
+          <input list="fromCities" id="from" name="from" placeholder="Enter city" required>
+            <datalist id="fromCities">
+              <option value="Bogor">
+            </datalist>
         </div>
+
         <div class="form-group">
-          <label>To</label>
-          <input type="text" placeholder="Enter destination" required>
+          <label for="to">To</label>
+          <input list="toCities" id="to" name="to" placeholder="Enter destination" required>
+            <datalist id="toCities">
+              <option value="Yogyakarta">
+            </datalist>
         </div>
+
         <div class="form-group">
-          <label>Departure date</label>
-          <input type="date" required>
+          <label for="departure date">Departure date</label>
+          <input list="date" id="to" name="to" placeholder="Enter date" required>
+            <datalist id="date">
+              <option value="25 December 2025">
+            </datalist>
         </div>
+
         <div class="form-group">
-          <label>No. of seats</label>
-          <input type="number" placeholder="Enter seats" min="1" required>
+          <label for="amount of seats">Amount of seats</label>
+          <input list="seat" id="to" name="to" placeholder="Enter seat amount" required>
+            <datalist id="seat">
+              <option value="1">
+            </datalist>
         </div>
+
         <button class="search-btn">Search</button>
       </form>
 

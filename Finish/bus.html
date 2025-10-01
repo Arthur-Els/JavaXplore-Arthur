@@ -20,7 +20,7 @@
       <li><a href="../Order/hotel.html">Hotels</a></li>
     </ul>
     <div class="auth-buttons">
-      <a href="#" class="btn btn-signin"></a>
+      <a href="../Sign out/signout.html" class="user-icon"><img src="/Image/user.svg" alt=""></a>
       <a href="../Sign out/signout.html" class="btn btn-signup">Person Satu</a>
     </div>
   </nav>
@@ -38,18 +38,27 @@
 
       <div class="input-group">
         <label for="fullname">Full Name <small>(as in Passport/Official ID Card)</small></label>
-        <input type="text" id="fullname" placeholder="Enter your full name" required>
+        <input list="name" id="fullname" placeholder="Enter your full name" required>
+          <datalist id="name">
+            <option value="Arthur">
+          </datalist>
       </div>
 
       <div class="row">
         <div class="input-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Enter your email" required>
+          <label for="Email">Email</label>
+          <input list="email" id="Email" placeholder="Enter your email" required>
+            <datalist id="email">
+              <option value="personsatu@gmail.com">
+            </datalist>
         </div>
         <div class="input-group">
-          <label for="mobile">Mobile number</label>
+          <label for="mobile-number">Mobile number</label>
           <div style="display: flex;">
-            <input type="number" placeholder="+62 087654321" required>
+            <input list="number" placeholder="+62 087654321" required>
+              <datalist id="number">
+                <option value="0812-3456-7890">
+              </datalist>
           </div>
 
           <button class="btn-pay">Choose payment method</button>
@@ -72,7 +81,9 @@
           No refund<br>
           Once you order, you cant ask for a refund<br><br>
           No reschedule<br>
-          Onece you order, you can't reschedule<br><br>
+          Once you order, you can't reschedule<br><br>
+          No seat request<br>
+          Can't choose your own seat number<br><br>
         </div>
 
         <div class="room-info">

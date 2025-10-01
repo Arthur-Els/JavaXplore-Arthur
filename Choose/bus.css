@@ -62,6 +62,10 @@ body, html {
   transition:  0.3s;
 }
 
+.auth-buttons img{
+  height: 25px;
+}
+
 .btn-signin {
   border: 1.5px solid white;
   color: white;
@@ -141,6 +145,7 @@ text-decoration: underline;
 .card img {
   width: 100%;
   border-radius: 6px;
+  margin-bottom: 6px;
 }
 
 .card .price {
