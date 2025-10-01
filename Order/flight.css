@@ -16,7 +16,7 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 12%;
+  height: 80px;
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,8 @@ body, html {
 
 .navbar .logo a {
   text-decoration: none;
-  font-size: 22px;
+  font-style: italic;
+  font-size: 26px;
   font-weight: bold;
   color: white;
 }
