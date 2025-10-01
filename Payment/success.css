@@ -86,6 +86,7 @@ text-decoration: underline;
 }
 
 .hero{
+  height: 100vh;
   margin-top: 100px;
   text-align: center;
 }
